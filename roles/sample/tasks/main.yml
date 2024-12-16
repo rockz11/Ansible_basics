@@ -1,0 +1,8 @@
+- name: Print Hello World
+  ansible.builtin.debug:
+    msg: HEllO INDIA
+
+
+- name: Print URL
+  ansible.builtin.debug:
+    msg: URL - {{ URL }}
